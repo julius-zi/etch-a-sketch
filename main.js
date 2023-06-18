@@ -35,18 +35,26 @@ divs.forEach(divItem => {
 makeGrid(userNumber);
 
 
+//add 'gridsize' button functionality
+gridsize.addEventListener('click', ()  => {
+    container.innerHTML = '';
+    userNumber = prompt("How many rows/columns do you wish? (1-80)");
+    if(userNumber<=80 && userNumber > 0) {
+    makeGrid(userNumber);
+    } else {
+        alert("Make sure to type a number between 1 and 80.")
+        userNumber = 8;
+        makeGrid(userNumber);
+    }
+});
+
+
+
 //add 'clear' button functionality
 clear.addEventListener('click', () => {
-    location.reload();
-});
-
-//add 'gridsize' button functionality
-gridsize.addEventListener('click', () => {
     container.innerHTML = '';
-    let userNumber = prompt("How many rows/columns do you wish? (1-100)");
     makeGrid(userNumber);
 });
-
 
 
 
