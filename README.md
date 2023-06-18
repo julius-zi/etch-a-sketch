@@ -1,8 +1,6 @@
 # etch-a-sketch
 
-Dear visitor,
-
-this is my solution for the etch-a-sketch project of TheOdinProject.
+This is my solution for the etch-a-sketch project of TheOdinProject.
 
 You can find the given task at: https://www.theodinproject.com/lessons/foundations-etch-a-sketch
 
