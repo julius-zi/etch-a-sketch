@@ -13,6 +13,7 @@ function makeGrid (userNumber) {
 
         const div = document.createElement('div');
         div.classList.add('grid',i);
+
         container.appendChild(div);
 
         div.style.width = `${100 / userNumber}%`;
@@ -21,6 +22,8 @@ function makeGrid (userNumber) {
 
         div.addEventListener('mouseover', ()=> {
             div.classList.add('gridColored')
+            const randomColor = Math.floor(Math.random()*16777215).toString(16);
+            div.style.backgroundColor = "#" + randomColor;
     });
     }
 }
