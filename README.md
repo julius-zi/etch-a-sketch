@@ -8,7 +8,8 @@ You can find the given task at: https://www.theodinproject.com/lessons/foundatio
 
 The creation of the grid was achieved through the application of the 'flex-wrap: wrap' CSS property.
 
-BR
-Julius
+[Live Demo](https://julius-zi.github.io/etch-a-sketch/)
+
+
 
 
